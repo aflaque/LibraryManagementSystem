@@ -157,11 +157,11 @@ class LibraryMangementSystem:
         def SelectBook(event=""):
             value=str(listBox.get(listBox.curselection()))       
             x=value
+
             if (x=="Head Firt Book"):
                 self.bookid_var.set("BKID5454")
                 self.booktitle_var.set("Python Manual")
                 self.auther_var.set("Paul Berry")
-                
                 d1=datetime.datetime.today()
                 d2=datetime.timedelta(days=15)
                 d3=d1+d2
@@ -176,7 +176,6 @@ class LibraryMangementSystem:
                 self.bookid_var.set("BKID8796")
                 self.booktitle_var.set("Basic of Python")
                 self.auther_var.set("Zed A. Shaw")
-                
                 d1=datetime.datetime.today()
                 d2=datetime.timedelta(days=15)
                 d3=d1+d2
@@ -186,11 +185,11 @@ class LibraryMangementSystem:
                 self.lateratefine_var.set("Rs.25")
                 self.dateoverdue_var.set("NO")
                 self.finallprice_var.set("Rs.500")
+
             elif (x=="Python Programming"):
                 self.bookid_var.set("BKID1245")
                 self.booktitle_var.set("Intro to python Comp Science")
                 self.auther_var.set("John Zhelle")
-                
                 d1=datetime.datetime.today()
                 d2=datetime.timedelta(days=15)
                 d3=d1+d2
@@ -200,11 +199,11 @@ class LibraryMangementSystem:
                 self.lateratefine_var.set("Rs.25")
                 self.dateoverdue_var.set("NO")
                 self.finallprice_var.set("Rs.500")
+
             elif (x=="Secrete Rashy"):
                 self.bookid_var.set("BKID8759")
                 self.booktitle_var.set("Basic of Python Tutorial")
                 self.auther_var.set("Ref.Kapil Kamble")
-                
                 d1=datetime.datetime.today()
                 d2=datetime.timedelta(days=15)
                 d3=d1+d2
@@ -214,11 +213,11 @@ class LibraryMangementSystem:
                 self.lateratefine_var.set("Rs.25")
                 self.dateoverdue_var.set("NO")
                 self.finallprice_var.set("Rs.289")
+
             elif (x=="Pyhton Cook Book"):
                 self.bookid_var.set("BKID2546")
                 self.booktitle_var.set("Python Cook book")
                 self.auther_var.set("Brian Jones")
-                
                 d1=datetime.datetime.today()
                 d2=datetime.timedelta(days=15)
                 d3=d1+d2
@@ -228,12 +227,11 @@ class LibraryMangementSystem:
                 self.lateratefine_var.set("Rs.25")
                 self.dateoverdue_var.set("NO")
                 self.finallprice_var.set("Rs.354")
+
             elif (x=="Into Machine Learning"):
                 self.bookid_var.set("BKID3618")
                 self.booktitle_var.set("Intro to Machine Learning")
                 self.auther_var.set("Sarah Guaido")
-                
-       
                 d1=datetime.datetime.today()
                 d2=datetime.timedelta(days=15)
                 d3=d1+d2
@@ -243,12 +241,11 @@ class LibraryMangementSystem:
                 self.lateratefine_var.set("Rs.25")
                 self.dateoverdue_var.set("NO")
                 self.finallprice_var.set("Rs.725")
+
             elif (x=="Into Machine Learning"):
                 self.bookid_var.set("BKID3618")
                 self.booktitle_var.set("Intro to Machine Learning")
                 self.auther_var.set("Sarah Guaido")
-                
-       
                 d1=datetime.datetime.today()
                 d2=datetime.timedelta(days=15)
                 d3=d1+d2
@@ -258,12 +255,11 @@ class LibraryMangementSystem:
                 self.lateratefine_var.set("Rs.25")
                 self.dateoverdue_var.set("NO")
                 self.finallprice_var.set("Rs.725")
+
             elif (x=="Fluent pyhton"):
                 self.bookid_var.set("BKID4618")
                 self.booktitle_var.set("Master Python")
                 self.auther_var.set("James Chadwick")
-                
-       
                 d1=datetime.datetime.today()
                 d2=datetime.timedelta(days=15)
                 d3=d1+d2
@@ -273,12 +269,11 @@ class LibraryMangementSystem:
                 self.lateratefine_var.set("Rs.25")
                 self.dateoverdue_var.set("NO")
                 self.finallprice_var.set("Rs.800")
+
             elif (x=="Machine Techno"):
                 self.bookid_var.set("BKID4724")
                 self.booktitle_var.set("Technics Of Machine")
                 self.auther_var.set("Fabio lambda")
-                
-       
                 d1=datetime.datetime.today()
                 d2=datetime.timedelta(days=15)
                 d3=d1+d2
@@ -288,12 +283,11 @@ class LibraryMangementSystem:
                 self.lateratefine_var.set("Rs.25")
                 self.dateoverdue_var.set("NO")
                 self.finallprice_var.set("Rs.1000")
+
             elif (x=="My Python"):
                 self.bookid_var.set("BKID9087")
                 self.booktitle_var.set("My Python")
                 self.auther_var.set("Joseph Ryan")
-                
-       
                 d1=datetime.datetime.today()
                 d2=datetime.timedelta(days=15)
                 d3=d1+d2
@@ -303,12 +297,11 @@ class LibraryMangementSystem:
                 self.lateratefine_var.set("Rs.25")
                 self.dateoverdue_var.set("NO")
                 self.finallprice_var.set("Rs.600")
+
             elif (x=="Joss Ellif Guru"):
                 self.bookid_var.set("BKID2031")
                 self.booktitle_var.set("Guides In Python")
                 self.auther_var.set("Joss Guru")
-                
-       
                 d1=datetime.datetime.today()
                 d2=datetime.timedelta(days=15)
                 d3=d1+d2
@@ -318,12 +311,11 @@ class LibraryMangementSystem:
                 self.lateratefine_var.set("Rs.25")
                 self.dateoverdue_var.set("NO")
                 self.finallprice_var.set("Rs.500")
+
             elif (x=="Jungli Python"):
                 self.bookid_var.set("BKID4321")
                 self.booktitle_var.set("Jungli Python")
                 self.auther_var.set("Samuel Jackson")
-                
-       
                 d1=datetime.datetime.today()
                 d2=datetime.timedelta(days=15)
                 d3=d1+d2
@@ -333,12 +325,11 @@ class LibraryMangementSystem:
                 self.lateratefine_var.set("Rs.25")
                 self.dateoverdue_var.set("NO")
                 self.finallprice_var.set("Rs.300")
+
             elif (x=="Mumbai Python"):
                 self.bookid_var.set("BKID4044")
                 self.booktitle_var.set("Mumbai Python")
                 self.auther_var.set("Peter Frost")
-                
-       
                 d1=datetime.datetime.today()
                 d2=datetime.timedelta(days=15)
                 d3=d1+d2
@@ -348,12 +339,11 @@ class LibraryMangementSystem:
                 self.lateratefine_var.set("Rs.25")
                 self.dateoverdue_var.set("NO")
                 self.finallprice_var.set("Rs.750")
+
             elif (x=="Pune Pyhton"):
                 self.bookid_var.set("BKID7431")
                 self.booktitle_var.set("Pune Pyhton")
                 self.auther_var.set("Hari Prasad")
-                
-       
                 d1=datetime.datetime.today()
                 d2=datetime.timedelta(days=15)
                 d3=d1+d2
@@ -363,12 +353,11 @@ class LibraryMangementSystem:
                 self.lateratefine_var.set("Rs.25")
                 self.dateoverdue_var.set("NO")
                 self.finallprice_var.set("Rs.500")
+
             elif (x=='Advance Pyhton'):                            
                 self.bookid_var.set("BKID3756")
                 self.booktitle_var.set("Advanced Learning")
                 self.auther_var.set("Robert William Jr.")
-                
-       
                 d1=datetime.datetime.today()
                 d2=datetime.timedelta(days=15)
                 d3=d1+d2
@@ -378,12 +367,11 @@ class LibraryMangementSystem:
                 self.lateratefine_var.set("Rs.25")
                 self.dateoverdue_var.set("NO")
                 self.finallprice_var.set("Rs.1000")
+
             elif (x=="Inton Pyhton"):
                 self.bookid_var.set("BKID5679")
                 self.booktitle_var.set("Inton Pyhton")
                 self.auther_var.set("steve king")
-                
-       
                 d1=datetime.datetime.today()
                 d2=datetime.timedelta(days=15)
                 d3=d1+d2
@@ -398,8 +386,6 @@ class LibraryMangementSystem:
                 self.bookid_var.set("BKID9701")
                 self.booktitle_var.set("Redchilli Pyhton")
                 self.auther_var.set("James Holland")
-                
-       
                 d1=datetime.datetime.today()
                 d2=datetime.timedelta(days=15)
                 d3=d1+d2
@@ -414,8 +400,6 @@ class LibraryMangementSystem:
                 self.bookid_var.set("BKID3782")
                 self.booktitle_var.set("Ishq Pyhton")
                 self.auther_var.set("Tony Musk")
-                
-       
                 d1=datetime.datetime.today()
                 d2=datetime.timedelta(days=15)
                 d3=d1+d2
